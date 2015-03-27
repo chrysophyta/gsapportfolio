@@ -1,0 +1,46 @@
+
+.wrapper{
+position:relative;
+width:100%;
+}
+#slides{
+	margin: auto;
+	position:absolute;
+}
+.slide{
+	width:100%;
+	height:768px;
+	display:block;
+
+
+}
+/* ====Title===*/
+#title{
+	background:red;
+
+}
+/* ====About===*/
+#about{
+	background:orange;
+}
+/* ====Skills===*/
+#skills{
+	background:yellow;
+}
+/* ====Works==*/
+#works{
+	background:green;
+}
+/* ====Contact==*/
+#contact{
+	background:blue;
+}
+
+/* ====footer===*/
+
+.black{
+	width:100px;
+	height: 100px;
+	display:block;
+	background: black;
+}
