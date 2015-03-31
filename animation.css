@@ -1,9 +1,77 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway+Dots);
 * {
-    background-color:#91ad70;
+    background-color:#66Bab7
 }
-#squareone{
-    width:30px;
-    height:30px;
-    background:white;
-    position:absolute;
+body{
+	overflow:hidden;
 }
+
+
+.letter{
+	color:white;
+	display:inline-block;
+	
+}
+.letters{
+	font-size: 200%;
+	text-align: center;
+	margin:0 auto;
+	z-index: 20;
+	font-family: "Raleway Dots";
+	position:absolute;
+}
+.namewrapper{
+	text-align: center;
+	z-index: 20;
+	position:relative;
+	margin:0 auto;
+	height:80px;
+	width:300px;
+	z-index: 10;
+}
+#butterfly{
+	background-image: url("butterfly-03.png");
+	background-size:contain;
+	background-repeat: no-repeat;
+	height:150px;
+	width:220px;
+	display: block;
+	margin: 0 auto;
+	z-index: 10;
+}
+.container{
+	height:720px;
+	width:1280px;
+	margin:0 auto;
+	
+}
+.linecircle{
+	height:500px;
+	width:500px;
+	margin:0 auto;
+	background-image: url("linecircle-02.png");
+	background-size:cover;
+}
+#restart{
+	border:solid 4px white;
+	font-family: "Raleway Dots";
+	width:300px;
+	height:50px;
+	text-align: center;
+	vertical-align: center;
+	font-size: 36px;
+	color:white;
+	padding:10px;
+	margin:0 auto;
+	display: none;
+	opacity:0;
+	
+}
+a:link,a:visited{
+	text-decoration: none;
+	color:white;
+
+};
+
+
+
